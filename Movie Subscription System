@@ -1,0 +1,79 @@
+                            MOVIE SUBSCRIPTION SYSTEM
+
+=> Data Entities from Requirements [DB Schema]
+UserAccount:
+    • UserID
+    • Name
+    • Email
+    • Username
+    • Password
+    • BillingAddress
+
+Subscription Details:
+    • SubscriptionID
+    • UserID
+    • SubscriptionType
+    • SubscriptionStartDate
+    • SubscriptionEndDate
+    • SubscriptionStatus
+    • SubscriptionPrice
+
+Billing History:
+    • TransactionID
+    • UserID
+    • SubscriptionID
+    • BillingDate
+    • Amount
+    • PaymentMethod
+
+Movie:
+    • MovieID
+    • Title
+    • YearOfRelease
+    • Director
+    • Avg.Rating
+
+Movies Genre
+    • MovieID
+    • Genre
+
+Movies_CastMembers:
+    • MovieID
+    • MemberName
+
+Movies Availability:
+    • MovieID
+    • StartDate
+    • EndDate
+
+Movie Ratings:
+    • RatingID
+    • MovieID
+    • UserID
+    • Rating
+
+Movie Reviews:
+    • ReviewID
+    • MovieID
+    • UserID
+    • ReviewComment
+
+Watchlist:
+    • WatchListID
+    • UserID
+    • WatchlistName
+    • CreatedDate
+
+Movies_Watchlist:
+    • WatchlistID
+    • MovieID
+
+Movie View History:
+    • ViewID
+    • UserID
+    • MovieID
+    • ViewDate
+    • Timestamp
+
+
+
